@@ -1,2 +1,1 @@
-# Projeto-Horta-Didatica-Automato
-izada
+# Projeto-Horta-Didatica-Automatizada
