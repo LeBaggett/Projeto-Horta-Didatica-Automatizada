@@ -1,0 +1,119 @@
+(footprint "KCD1-106N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3e6025d-491e-4bc5-b81a-669f7aaf4665")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Kcd1-106n"
+		(at 0.05 13.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "112cf94a-efa9-4617-ac35-4074eb126915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbc22f27-57d1-4f08-a52f-5a2a5a4c08f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53ea4f7c-2847-4d9c-b3ce-7facb631f43d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 25)
+		(end 7.5 25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1dc1da8e-c054-43dc-90eb-1a9f9e183a69")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41aac863-c6a2-4d51-86b8-34b9748354f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 20.3)
+		(size 7 3)
+		(drill oval 5 1.5)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d42b5a4a-5727-4617-badc-ab7711ecce69")
+	)
+	(pad "2" thru_hole oval
+		(at 0 25)
+		(size 7 3)
+		(drill oval 5 1.5)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd9c8027-9dd1-4cc2-838c-61287aef2333")
+	)
+	(pad "3" thru_hole oval
+		(at 0 29.7)
+		(size 7 3)
+		(drill oval 5 1.5)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79fbc436-3966-4e5d-a2f3-6df951e94dd3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Symbols & Footprints/=___G=K9 _5@5_;NG0B5;L KCD1-108-R.stp"
+		(offset
+			(xyz 0 -25 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 90)
+		)
+	)
+)
